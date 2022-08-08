@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [High Priority Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="classes" name="High Priority(failed)">
+    <classes>
+      <class name="com.sauceDemo.TestCasses.TC_007_VerifyToBuysingleProduct">
+        <methods>
+          <include name="singleProductBayFunctionality"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.sauceDemo.TestCasses.TC_007_VerifyToBuysingleProduct -->
+      <class name="com.sauceDemo.TestCasses.TC_008_VerifyToBayMultipleProduct">
+        <methods>
+          <include name="setUp"/>
+          <include name="multipleProductSelect"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.sauceDemo.TestCasses.TC_008_VerifyToBayMultipleProduct -->
+      <class name="com.sauceDemo.TestCasses.TC_009_VerifyBagPachDetaisPageInfo">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="verifyBagProductInfo"/>
+        </methods>
+      </class> <!-- com.sauceDemo.TestCasses.TC_009_VerifyBagPachDetaisPageInfo -->
+      <class name="com.sauceDemo.TestCasses.TC_005VerifyAboutFunctionality">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="aboutFunctionality"/>
+        </methods>
+      </class> <!-- com.sauceDemo.TestCasses.TC_005VerifyAboutFunctionality -->
+      <class name="com.sauceDemo.TestCasses.TC_004_VerifyFilterFunctionality">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="filterFunctionality"/>
+        </methods>
+      </class> <!-- com.sauceDemo.TestCasses.TC_004_VerifyFilterFunctionality -->
+    </classes>
+  </test> <!-- High Priority(failed) -->
+</suite> <!-- Failed suite [High Priority Suite] -->
